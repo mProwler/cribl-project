@@ -55,8 +55,11 @@ router.get('/:log', function(req, res, next) {
       } else {
         // Check for filter string (if specified)
         if (!filter || line.indexOf(filter) !== -1) {
-          body = body + line + "\n";
-          lineCount++;
+          // Check for empty line, skip it if it's the first (last) line
+          if (line || lineCount > 0) {
+            body = body + line + "\n";
+            lineCount++;
+          }
         }
 
         // Reset line value
