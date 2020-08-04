@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "770f7170-6c36-4685-ad93-16190160d7e6",
+		"name": "Cribl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test Cribl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Master",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Master (Docker)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Use this for testing within Docker instance of master (uses docker_host_internal magic DNS name)"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
