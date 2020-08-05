@@ -13,10 +13,11 @@ router.get('/:log', function(req, res, next) {
 
   // Check arguments
   if (!log) {
-    throw new Error('Missing required param "log"');
+    next(new Error('Missing required param "log"'));
   }
 
-  let filename = LOG_BASE + '/' + log;
+  let logPath = req.app.get('LOG_PATH') || LOG_BASE;
+  let filename = logPath + '/' + log;
   let body = '';
 
   // Open log file
@@ -27,7 +28,8 @@ router.get('/:log', function(req, res, next) {
 
     if (err) {
       console.error('Error opening specified log file.');
-      throw err;
+      next(err);
+      return;
     }
 
     // Get file size and allocate buffer instance
@@ -76,7 +78,7 @@ router.get('/:log', function(req, res, next) {
     fs.close(fd, function (err) {
       if (err) {
         console.error('Error closing log file');
-        throw err;
+        next(err);
       } else {
         res.send(body);
       }
