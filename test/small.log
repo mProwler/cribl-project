@@ -1,0 +1,84 @@
+2017/09/14 18:35:03 Starting cygwin install, version 2.881
+2017/09/14 18:35:03 User has backup/restore rights
+2017/09/14 18:35:03 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2017/09/14 18:35:03 Current Directory: C:\Users\mprow\Downloads
+2017/09/14 18:35:03 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/09/14 18:35:09 source: network install
+2017/09/14 18:35:19 root: C:\cygwin64 system
+2017/09/14 18:35:31 Selected local directory: C:\Users\mprow\Downloads\cygwin_temp
+2017/09/14 18:35:34 net: Direct
+2017/09/14 18:35:42 site: http://cygwin.mirror.constant.com/
+2017/09/14 18:35:44 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2017/09/14 18:35:44 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2017/09/14 18:36:34 Adding required dependency bc: Selecting version 1.06.95-2 for installation.
+2017/09/14 18:36:34 Adding required dependency binutils: Selecting version 2.28-3 for installation.
+2017/09/14 18:36:34 Adding required dependency bzip2: Selecting version 1.0.6-3 for installation.
+2017/09/14 18:36:34 Adding required dependency ca-certificates: Selecting version 2.16-1 for installation.
+2017/09/14 18:36:34 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2017/09/14 18:36:34 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2017/09/14 18:36:34 Adding required dependency cygwin-devel: Selecting version 2.9.0-3 for installation.
+2017/09/14 18:36:34 Adding required dependency desktop-file-utils: Selecting version 0.23-1 for installation.
+2017/09/14 18:36:34 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
+2017/09/14 18:36:34 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
+2017/09/14 18:36:34 Adding required dependency gsettings-desktop-schemas: Selecting version 3.24.1-1 for installation.
+2017/09/14 18:36:34 Adding required dependency less: Selecting version 487-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libargp: Selecting version 20110921-3 for installation.
+2017/09/14 18:36:34 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libbz2_1: Selecting version 1.0.6-3 for installation.
+2017/09/14 18:36:34 Adding required dependency libcom_err2: Selecting version 1.42.12-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libcrypt0: Selecting version 2.1-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libdb5.3: Selecting version 5.3.28-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libexpat1: Selecting version 2.2.3-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
+2017/09/14 18:36:34 Adding required dependency libffi6: Selecting version 3.2.1-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libgcc1: Selecting version 6.4.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libgdbm4: Selecting version 1.12-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libglib2.0_0: Selecting version 2.52.3-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libgssapi_krb5_2: Selecting version 1.14.4-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2017/09/14 18:36:34 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2017/09/14 18:36:34 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libk5crypto3: Selecting version 1.14.4-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libkrb5support0: Selecting version 1.14.4-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libkrb5_3: Selecting version 1.14.4-1 for installation.
+2017/09/14 18:36:34 Adding required dependency liblzma5: Selecting version 5.2.3-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libmpfr4: Selecting version 3.1.5-1p10 for installation.
+2017/09/14 18:36:34 Adding required dependency libncursesw10: Selecting version 6.0-11.20170617 for installation.
+2017/09/14 18:36:34 Adding required dependency libp11-kit0: Selecting version 0.23.5-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libpcre1: Selecting version 8.40-3 for installation.
+2017/09/14 18:36:34 Adding required dependency libpcre2_16_0: Selecting version 10.23-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libsqlite3_0: Selecting version 3.20.1-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libssp0: Selecting version 6.4.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libstdc++6: Selecting version 6.4.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libtasn1_6: Selecting version 4.12-1 for installation.
+2017/09/14 18:36:34 Adding required dependency libuuid-devel: Selecting version 2.25.2-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
+2017/09/14 18:36:34 Adding required dependency libxml2: Selecting version 2.9.4-2 for installation.
+2017/09/14 18:36:34 Adding required dependency p11-kit: Selecting version 0.23.5-1 for installation.
+2017/09/14 18:36:34 Adding required dependency p11-kit-trust: Selecting version 0.23.5-1 for installation.
+2017/09/14 18:36:34 Adding required dependency pkg-config: Selecting version 0.29.1-1 for installation.
+2017/09/14 18:36:34 Adding required dependency python: Selecting version 2.7.13-1 for installation.
+2017/09/14 18:36:34 Adding required dependency python-simplejson: Selecting version 3.10.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency python2: Selecting version 2.7.13-1 for installation.
+2017/09/14 18:36:34 Adding required dependency python2-simplejson: Selecting version 3.10.0-1 for installation.
+2017/09/14 18:36:34 Adding required dependency shared-mime-info: Selecting version 1.8-1 for installation.
+2017/09/14 18:36:34 Adding required dependency tzcode: Selecting version 2016j-1 for installation.
+2017/09/14 18:36:34 Adding required dependency xz: Selecting version 5.2.3-1 for installation.
+2017/09/14 18:36:34 Adding required dependency zlib0: Selecting version 1.2.11-1 for installation.
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001006-1.tar.xz
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2017/09/14 18:36:35 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bc/bc-1.06.95-2.tar.xz
+2017/09/14 18:36:37 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/binutils/binutils-2.28-3.tar.xz
+2017/09/14 18:36:37 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.6-3.tar.xz
+2017/09/14 18:36:37 Downloaded C:\Users\mprow\Downloads\cygwin_temp/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.16-1.tar.xz
