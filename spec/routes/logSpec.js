@@ -1,3 +1,4 @@
+const fs = require('fs');
 const http = require('http');
 
 const endpoint = 'http://localhost:8080/log/';
@@ -60,6 +61,26 @@ describe('The log endpoint', () => {
                 for (let line in lines) {
                     expect(lines[line]).toContain('version');
                 }
+                done();
+            });
+        }).on('error', (e) => {
+            console.error('Error during request: ' + e.message);
+            fail();
+        });
+    });
+
+    it('should return same size response as source file when unfiltered', (done) => {
+        let stats = fs.statSync("test/small.log");
+        let expectedSize = stats["size"];
+
+        http.get(endpoint + 'small.log', (response) => {
+            let actualSize = 0;
+
+            response.on('data', (data) => {
+                actualSize += data.length
+            });
+            response.on('end', () => {
+                expect(actualSize).toEqual(expectedSize);
                 done();
             });
         }).on('error', (e) => {
