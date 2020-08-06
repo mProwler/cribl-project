@@ -89,7 +89,7 @@ describe('The log endpoint', () => {
         });
     });
 
-    it('should process large log quickly', (done) => {
+    it('should process logs within a few seconds', (done) => {
         let startTime = Date.now();
         http.get(endpoint + 'setup.log?filter=version', (response) => {
             let body = '';
@@ -102,14 +102,14 @@ describe('The log endpoint', () => {
                 let endTime = Date.now();
                 let totalTime = Math.round((endTime - startTime) / 1000);
                 console.debug('Took ' + totalTime + ' seconds to filter ' + lines.length + ' lines from log');
-                expect(totalTime).toBeLessThan(10);
+                expect(totalTime).toBeLessThan(2);
                 done();
             });
         }).on('error', (e) => {
             console.error('Error during request: ' + e.message);
             fail();
         });
-    }, 20000);
+    }, 10000);
 
     it('should return error for non-existent log file', (done) => {
         http.get(endpoint + 'gibberish.log', (response) => {
