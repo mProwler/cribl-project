@@ -76,7 +76,7 @@ router.get('/:log', function(req, res, next) {
       endOfFile = (pos <= 0);
 
       // Add buffer contents to remaining data in data variable
-      data = buffer.toString().slice(0, byteCount) + data;
+      data = buffer.slice(0, byteCount).toString() + data;
 
       // Look for line breaks and filter/extract line(s)
       while (!done && (endOfFile || data.indexOf(lineBreak || "\n") !== -1)) {
